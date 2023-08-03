@@ -1,0 +1,144 @@
+.bg-custom {
+    background-color: #a29d9d;
+    font-family: 'Quicksand', sans-serif;
+    height: 80px;
+    color: black;
+  }
+  
+  .navbar-nav {
+    order: 2;
+    margin-left: auto;
+    font-size: 20px;
+    
+  }
+  .navbar-nav li.nav-item:hover a.nav-link {
+    color: #462b8c;
+  }
+  
+  .navbar-toggler {
+    background-color: #a29d9d;
+  }
+  
+  html body {
+    background-color: #d9cdcd;
+  }
+  
+  @media (max-width: 1000px) {
+    .navbar-nav {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      background-color: #a29d9d;
+      z-index: 1;
+    }
+  
+    .navbar-nav .nav-item {
+      display: block;
+    }
+  
+    .navbar-nav .nav-item .nav-link {
+      color: black;
+    }
+  }
+
+  main .container {
+    text-align: center;
+  }
+  
+  main .container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 40px;
+    background-color: #f2f2f2;
+    border-radius: 6px;
+    
+  }
+  
+  main .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main .container .col-md-6 {
+    margin-bottom: 20px;
+  }
+  
+  main .container img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  main .container ul {
+    list-style: none;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 0;
+  }
+  
+  main .container ul li {
+    margin-left: 10px;
+  }
+  
+  main .container ul li a {
+    color: #333;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  main .container ul li a:hover {
+    color: #6333dd;
+  }
+  
+  .footer {
+    background-color: #f2f2f2;
+    padding: 30px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .footer p {
+    font-size: 18px;
+    margin-bottom: 0;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .footer ul {
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  
+  .footer ul li {
+    display: inline-block;
+    margin-left: 10px;
+    
+  }
+
+  .footer ul li a:hover {
+    color: #30186c;
+  }
+  
+  .footer ul li a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 18px;
+  }
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

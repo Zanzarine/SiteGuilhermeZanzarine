@@ -1,0 +1,126 @@
+.bg-custom {
+    background-color: #a29d9d;
+    font-family: 'Quicksand', sans-serif;
+    height: 80px;
+    color: black;
+  }
+  
+  .navbar-nav {
+    order: 2;
+    margin-left: auto;
+    font-size: 20px;
+    
+  }
+  .navbar-nav li.nav-item:hover a.nav-link {
+    color: #462b8c;
+  }
+  
+  .navbar-toggler {
+    background-color: #a29d9d;
+  }
+  
+  html body {
+    background-color: #d9cdcd;
+  }
+  
+  @media (max-width: 1000px) {
+    .navbar-nav {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      background-color: #a29d9d;
+      z-index: 1;
+    }
+  
+    .navbar-nav .nav-item {
+      display: block;
+    }
+  
+    .navbar-nav .nav-item .nav-link {
+      color: black;
+    }
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  
+  .meu-cv {
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .curriculo-texto {
+    font-size: 14px;
+    color: #272222;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .btn.btn-download {
+    background-color: #4d4a45;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 4px;
+  }
+
+  .btn.btn-download:hover {
+    background-color: #5a28be;
+  }
+
+  .footer {
+    background-color: #f2f2f2;
+    padding: 30px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .footer p {
+    font-size: 18px;
+    margin-bottom: 0;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .footer ul {
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  
+  .footer ul li {
+    display: inline-block;
+    margin-left: 10px;
+    
+  }
+
+  .footer ul li a:hover {
+    color: #30186c;
+  }
+  
+  .footer ul li a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 18px;
+  }
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
